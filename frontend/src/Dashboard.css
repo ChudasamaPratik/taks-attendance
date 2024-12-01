@@ -1,0 +1,21 @@
+/* Dashboard.css */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+.jura-button {
+    font-family: 'Jura', sans-serif;
+  }
+  
+  .jura-time {
+    font-family: 'Jura', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  @keyframes backgroundGradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  body {
+    animation: backgroundGradient 10s ease infinite;
+  }
+  
